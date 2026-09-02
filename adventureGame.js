@@ -32,10 +32,15 @@ let currentLocation = "Village";
 let playerGold = 20; //Starting gold
 let gameRunning = true;
 let inventory = [];
+let weaponDamage = 0
+
 // display welcome message and starting stats
 console.log(`Welcome, ${playerName}!`);
 console.log(`Health: ${playerHealth}`);
 console.log(`Location: ${currentLocation}`);
+console.log('Your initial Weapon Damage is: ' + weaponDamage);
+console.log('========= hint =========')
+console.log("When you buy your sword, weapon damage will increase to 10!")
 console.log()
 
 console.log("============================================================")
@@ -46,3 +51,6 @@ console.log("Your quest: Defeat the dragon in the mountains!");
 playerName = readline.question("What is your name, brave adventurer? ");
 console.log("\nWelcome, " + playerName + "!");
 console.log("You start with " + playerHealth + " health and " + playerGold + " gold.");
+//setup a simple moster defense value
+let monsterDefense = 5;
+console.log("Monsters can withsand some damage in combat!")
