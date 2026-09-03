@@ -14,3 +14,23 @@ if (!userLoggedIn) {
     // Se estiver logado E tiver itens no carrinho
     console.log("Welcome back! Proceeding to checkout with " + numberOfItens + " items.");
 }
+
+console.log("====================================================================================")
+
+let menuSelection = 2; 
+
+// menu selection example:
+switch (menuSelection) {
+    case 1:
+        console.log("Selected: View Profile");
+        break;
+    case 2:
+        console.log("Selected: Account Settings");
+        break;
+    case 3:
+        console.log("Selected: Logout");
+        break;
+    default:
+        console.log("Invalid selection. Please choose a valid option.");
+        break;
+}
