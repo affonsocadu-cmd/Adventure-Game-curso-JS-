@@ -63,3 +63,16 @@ while (taskNumber <= 5) {
     taskNumber++; //dont forget to include this or we will have an infinite loop
 }
 console.log("All tasks Completed!")
+
+
+
+let counter = 0;
+for (let i = 0; i < 4; i++) {
+    counter += i;
+}
+
+console.log(counter)
+
+let a = 5;
+let b = '10';
+console.log(a + b();
